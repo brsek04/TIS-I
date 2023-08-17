@@ -1,0 +1,48 @@
+
+#cuadrado_rojo{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+    margin-left: 5px;
+    opacity: 1;
+}
+
+#cuadrado_rojo2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+    margin-left: 5px;
+    opacity: 0.5;
+}
+
+#cuadrado_invisible{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    display: hidden;
+    margin-left: 5px;
+}
+
+#cuadrado_negro{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    display: inline-block;
+    margin-left: 5px;
+    opacity: 0.1;
+}
+
+h1{
+    text-align: center; 
+}
+
+#texto{
+    text-decoration: underline;
+}
+
+#texto2{
+    text-transform: uppercase;
+    color: white;
+}
