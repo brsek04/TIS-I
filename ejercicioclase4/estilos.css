@@ -1,0 +1,72 @@
+#cajagrande{
+    height: 200px;
+    width: 625px;
+    border: 1px solid;
+    border-color: black;
+    display: block;
+}
+
+#cajaimagen{
+    display: inline-block;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+#cajagrandetexto{
+    height: 150px;
+    width: 350px;
+    /*border: 1px solid;
+    border-color: black;*/
+    display: inline-block;
+}
+
+#nombre{
+    height: 40px;
+    width: 350px;
+    /*border: 1px solid;
+    border-color: black;*/    
+    position: absolute;
+    top: 75px;
+}
+
+#letranombre{
+    font-weight: bold;
+}
+
+#descripcion{
+    height: 50px;
+    width: 350px;
+    /*border: 1px solid;
+    border-color: black;*/ 
+    position: absolute;
+    top: 120px;   
+}
+
+#cajachicatexto{
+    height: 100px;
+    width: 100px;
+    /*border: 1px solid; 
+    border-color: black;*/
+    display: inline-block;
+    position: absolute;
+    top: 75px;
+}
+
+#icon{
+    font-size: 20px;
+}
+
+#textochico{
+    height: 50px;
+    width: 1005;
+    /*border: 1px solid;
+    border-color: black;*/
+    display: flex;
+    text-align: center;
+}
