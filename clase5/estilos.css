@@ -1,0 +1,66 @@
+.contenedor_grande{
+    height: 500px;
+    width: 100%;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: burlywood;
+    z-index: 1;
+}
+
+img{
+    height: 400px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    z-index: 2;
+}
+
+.contenedor_textos{
+    height: 100px;
+    width: 100%;
+    background-color: burlywood;
+    z-index: 2;
+}
+
+.shuffle{
+   height: 70px;
+   width: 70px;  
+   border: 0.1px;
+   border-color: rgb(194, 0, 0); 
+   border-style: solid;
+   border-radius: 50%;
+   background-color: rgb(194, 0, 0);
+   z-index: 3;
+   margin-left: 75%;
+   top: 45%;
+   color: white;
+   position: absolute;
+}
+
+#icon_shuffle{
+}
+
+.contenedor_barra{
+    padding-left: 58%;
+    z-index: 3;
+    position: fixed;
+    color: white;
+}
+#hora{
+    font-size: 24px;
+}
+
+.contenedor_reproduccion{
+    margin-top: 25px;
+    z-index: 3;
+    position: fixed;
+    color: white;
+}
+#close{
+    font-size: 30px;
+}
+
+#reproduciendo{
+    font-size: 25px;
+}
