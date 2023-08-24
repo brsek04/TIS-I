@@ -1,3 +1,6 @@
+*{
+  font-family: 'Lato', sans-serif;
+}
 .contenedor_grande{
     height: 500px;
     width: 100%;
@@ -23,6 +26,29 @@ img{
     z-index: 2;
 }
 
+.titulo{
+    height: 30%;
+    width: 100%;
+    display: block;
+}
+
+#titulo_letra{
+    font-size: 35px;
+    padding-left: 5%;
+}
+
+.nombre{
+    height: 70%;
+    width: 100%;
+    display: block;
+    padding-top: 2%;
+}
+
+#nombres{
+    font-size: 30px;
+    padding-left: 5%;
+}
+
 .shuffle{
    height: 70px;
    width: 70px;  
@@ -36,17 +62,21 @@ img{
    top: 45%;
    color: white;
    position: absolute;
+   display: grid;
+   place-content: center;
 }
 
 #icon_shuffle{
+    font-size: 50px;
 }
 
 .contenedor_barra{
-    padding-left: 58%;
+    padding-left: 56%;
     z-index: 3;
     position: fixed;
     color: white;
 }
+
 #hora{
     font-size: 24px;
 }
@@ -57,8 +87,10 @@ img{
     position: fixed;
     color: white;
 }
-#close{
+
+#icon_close{
     font-size: 30px;
+    padding-top: 2%;
 }
 
 #reproduciendo{
