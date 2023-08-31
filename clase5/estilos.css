@@ -48,7 +48,7 @@ img{
     font-size: 30px;
     padding-left: 5%;
 }
-
+ 
 .shuffle{
    height: 70px;
    width: 70px;  
@@ -71,10 +71,12 @@ img{
 }
 
 .contenedor_barra{
-    padding-left: 56%;
+    padding-left: 57%;
     z-index: 3;
     position: fixed;
     color: white;
+    background-color: black;
+    opacity: 1;
 }
 
 #hora{
