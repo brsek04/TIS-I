@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #navegador{
@@ -9,8 +10,14 @@
     padding-left: 20%;
     padding-right: 20%;
 }
+p{
+    display: inline;
+    position: absolute;
+    padding-top: 12px;
+}
+
 #ucsc{
-    height: 200px;
+    height: 170px;
     width: 100%;
     padding-left: 20%;
     padding-right: 20%;
@@ -18,16 +25,30 @@
 #logoucsc{
     height: 100px;
     width: 300px;
+    padding-top: 30px;
+}
+h1{
+    font-size: 36px;
+    color: rgb(202, 13, 13);
+    display: inline;
+    position: absolute;
+    padding-left: 50px;
+    padding-top: 60px;
 }
 #opciones{
     height: 50px;
     width: 100%;
-    background-color: blueviolet;
+    padding-left: 22%;    
+}
+a{
+    text-decoration:none;
+    color: black;
+    padding-right: 15px;
 }
 #imagenes{
     height: 500px;
     width: 100%;
-    background-color: red;
+    background-color: rgb(211, 218, 226);
 }
 #img1{
     height: 50%;
@@ -35,7 +56,7 @@
     display: inline-block;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 30px;
+    padding-top: 25px;
 }
 .imgs1{
     height: 200px;
@@ -53,4 +74,7 @@
     height: 200px;
     width: 360px;
     padding-left: 20px;
+}
+#foter1{
+    padding-left: 20%;
 }
