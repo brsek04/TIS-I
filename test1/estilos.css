@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    font-family: 'Roboto Condensed';
+}
+
+#navegador{
+    background-color: whitesmoke;
+    height: 50px;
+}
+
+#l1{
+    display: grid;
+    place-content: center;
+    position: absolute; 
+    color: black;
+    top: 15px;
+    right: 700px;
+}
+
+#l2{
+    display: grid;
+    place-content: center;
+    position: absolute;
+    color: black;
+    top: 15px;
+    right: 500px;
+}
+
+#l3{
+    display: grid;
+    place-content: center;
+    position: absolute;
+    color: black;
+    top: 15px;
+    right: 320px;
+}
+
+#l4{
+    display: grid;
+    place-content: center;
+    position: absolute;
+    color:  #b5121c;
+    top: 90px;
+    left: 775px;
+}
+
+#l5{
+    display: grid;
+    place-content: center;
+    position: absolute;
+    color:  #b5121c;
+    top: 90px;
+    left: 930px;
+}
+
+#l6{
+    display: grid;
+    place-content: center;
+    position: absolute;
+    color:  #b5121c;
+    top: 90px;
+    left: 1020px;
+}
+
+#l7{
+    display: grid;
+    place-content: center;
+    position: absolute;
+    color:  #b5121c;
+    top: 90px;
+    left: 1150px;
+}
+
+#l8{
+    display: grid;
+    place-content: center;
+    position: absolute;
+    color:  #b5121c;
+    top: 90px;
+    left: 1300px;   
+}
+
+
+
+
+#iface{
+    height: 30px;
+    width: 30px;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-top: 8px;
+    opacity: 0.5;
+}
+
+#itwi{
+    height: 30px;
+    width: 30px;
+    padding-right: 20px;
+    opacity: 0.5;
+}
+
+#iinsta{
+    height: 30px;
+    width: 30px;
+    opacity: 0.5;
+}
+
+#registrate{
+    height: 35px;
+    width: 120px;
+    background-color: grey;
+    display: grid;
+    place-content: center;
+    position: absolute;
+    top: 8px;
+    right:180px;
+}
+
+#iniciosesion{
+    height: 35px;
+    width: 120px;
+    background-color:  #b5121c;
+    display: grid;
+    place-content: center;
+    position: absolute;
+    top: 8px;
+    right: 40px;
+}
+h1{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+#cinema{
+    height: 100px;
+}
+
+#cinemarkkk{
+    height: 40px;
+    width: 350px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+#mall{
+    height: 50px;
+    background-color: black;
+    color: white;
+    width: 350px;
+    display: grid;
+    place-content: center;
+    position: absolute;
+    top: 75px;
+    right: 40px;
+}
+
+#pelis{
+    height: 150px;
+    background-color: whitesmoke;
+    padding-left: 40px;
+}
+
+#random{
+    height: 150px;
+}
+
+#cartelera{
+    background: white;
+    width: 580px;
+    height: 50px;
+    border-bottom: 3px solid black;
+    display: grid;
+    position: absolute;
+    place-content: center;
+    color: black;
+    top: 325px;
+    left: 40px;
+    opacity: 0.5;
+}
+
+#preventa{
+    background: white;
+    width: 580px;
+    height: 50px;
+    border-bottom: 3px solid black;
+    display: grid;
+    position: absolute;
+    place-content: center;
+    color: black;
+    top: 325px;
+    left: 640px;
+    opacity: 0.5;
+}
+
+#proximamente{
+    background: white;
+    width: 580px;
+    height: 50px;
+    border-bottom: 3px solid black;
+    display: grid;
+    position: absolute;
+    place-content: center;
+    color: black;
+    top: 325px;
+    left: 1240px;
+    opacity: 0.5;
+}
+
+#random2{
+    padding-left: 40px;
+}
+
+
+#imagenes{
+    display: inline-block;
+    padding-left: 175px;
+    padding-top: 50px;
+}
+
+#foto1{
+    padding-right: 30px;
+}
+#foto2{
+    padding-right: 30px;
+}
+#foto3{
+    padding-right: 30px;
+}
+#foto4{
+    padding-right: 30px;
+}
+
+#estreno{
+    width: 280px;
+    height: 40px;
+    background-color:  #b5121c;
+    color: white;
+    display: grid;
+    position: absolute;
+    place-content: center;
+    top: 505px;
+}
+
+#hora1{
+    width: 280px;
+    height: 40px;
+    background-color:  #b5121c;
+    color: white;
+    display: grid;
+    position: absolute;
+    place-content: center;
+    top: 940px;
+}
+#hora2{
+    width: 280px;
+    height: 40px;
+    background-color:  #b5121c;
+    color: white;
+    display: grid;
+    position: absolute;
+    place-content: center;
+    left: 488px;
+    top: 940px;
+}
+#hora3{
+    width: 280px;
+    height: 40px;
+    background-color:  #b5121c;
+    color: white;
+    display: grid;
+    position: absolute;
+    place-content: center;
+    left: 802px;
+    top: 940px;
+}
+#hora4{
+    width: 280px;
+    height: 40px;
+    background-color:  #b5121c;
+    color: white;
+    display: grid;
+    position: absolute;
+    place-content: center;
+    left: 1116px;
+    top: 940px;
+}
+#hora5{
+    width: 280px;
+    height: 40px;
+    background-color:  #b5121c;
+    color: white;
+    display: grid;
+    position: absolute;
+    place-content: center;
+    left: 1430px;
+    top: 940px;
+}
+
+#peliletra{
+    font-size: 35px;
+}
+
+#vive{
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+#csletra{
+    font-size: 35px;
+}
