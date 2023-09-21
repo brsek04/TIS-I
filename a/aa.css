@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    /* background-color: black;
+    color: white; */
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#logo{
+    height: 100%;
+    width: 100%;
+}
+
+
+#caja1{
+    width: 900px;
+    height: 900px;
+    display: inline-block;
+    background-color: red;
+}
+#caja2{
+    width: 900px;
+    height: 900px;
+    background-color: blue;
+    display: inline-block;
+}

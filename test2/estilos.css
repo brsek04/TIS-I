@@ -1,0 +1,93 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: black;
+}
+#bloque1{
+    height: 800px;
+    width: 800px;
+    display: inline-block;
+    background-color: black;
+    margin-left: 150px;
+}
+
+#bloque2{
+    height: 800px;
+    width: 800px;
+    display: inline-block;
+    background-color: black;
+}
+
+#logo{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 18%;
+}
+
+#bloquetitulo{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    color: white;
+    top: 18%;
+    left: 55%;
+}
+
+.sp1{
+    font-size: 46px;
+}
+
+#unete{
+    font-size: 36px;
+}
+
+#bloque3{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 55%;
+    bottom: 25%;
+    padding-bottom: 5px;
+}
+
+#o{
+    font-size: 20px;
+    padding-left: 150px;
+    color: white;
+}
+
+#bb{
+    width: 300px;
+    margin-top: 10px;
+    border-color: white;
+    color: #00acee;
+}
+
+#bb2{
+    background-color: #00acee;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#bb3{
+    width: 300px;
+}
+
+#bb4{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.sub{
+    color: #00acee;
+}
+
+footer{
+    padding-left: 20px;
+}
+
+a{
+    padding-left: 10px;
+    color: white;
+}
