@@ -48,7 +48,7 @@ $respuesta = mysqli_query($conexion, $consulta);
                         <input type="text" name="logo" class="form-control" placeholder="logo-marca.jpg"
                             aria-label="Username" aria-describedby="basic-addon1">
                     </div>
-                    <input type="submit" value="guardar" class="btn btn-primary">
+                    <input type="submit" value="GUARDAR" class="btn btn-primary">
                 </form>
             </div>
 
@@ -61,6 +61,7 @@ $respuesta = mysqli_query($conexion, $consulta);
                             <th scope="col"><strong>NOMBRE</strong></th>
                             <th scope="col"><strong>ORIGEN</strong></th>
                             <th scope="col"><strong>LOGO</strong></th>
+                            <th scope="col"><strong>OPCIONES</strong></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -71,7 +72,14 @@ $respuesta = mysqli_query($conexion, $consulta);
                             echo "<td>" . $row["nombre"] . "</td>";
                             echo "<td>" . $row["origen"] . "</td>";
                             echo "<td>" . $row["logo"] . "</td>";
-                            echo "<tr>";
+                            echo "<td>";
+                            echo "<a href='eliminar.php?id_enviado=". $row["id"] . "'>";
+                            echo "<button class='btn btn-sm btn-dark ms-2'>ELIMINAR</button>";
+                            echo "</a>";
+                            echo "<a href='editar.php?id_enviado=". $row["id"] . "'>";
+                            echo "<button class='btn btn-sm btn-primary ms-2'>EDITAR</button>";
+                            echo "</a>";
+                            echo "</td>";
                         }
                         ?>
                     <tbody>
